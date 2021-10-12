@@ -166,6 +166,10 @@ Verify the installation via `pip3 list` command.
 
 ![11](https://tva1.sinaimg.cn/large/008i3skNgy1gvczu91g0yj60qo0scgyt02.jpg)
 
+Failed Attempt: `sudo apt-get install python3-dev`
+
+
+
 #### Error Case 2: Solution TBD  
 
 `sudo -H CUDAHOME=/usr/local/cuda-10.1 python3 sporco-cuda build`
