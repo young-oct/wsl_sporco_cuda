@@ -101,11 +101,18 @@ For other basic WSL2 commands, please go to [WSL Basic Command](https://docs.mic
 The following commands can be followed to ease the installation
 
 1. `sudo apt update`
-2. `sudo apt-key adv --fetch-keys  http://developer.download.nvidia.com/compute/cuda/repos/ubuntu1804/x86_64/7fa2af80.pub`
-3. `sudo bash -c 'echo "deb http://developer.download.nvidia.com/compute/cuda/repos/ubuntu1804/x86_64 /" > /etc/apt/sources.list.d/cuda.list'`
-4. `sudo bash -c 'echo "deb http://developer.download.nvidia.com/compute/machine-learning/repos/ubuntu1804/x86_64 /" > /etc/apt/sources.list.d/cuda_learn.list'`
-5. `sudo apt update`
-6. `sudo apt install cuda-toolkit-10-1`
+
+2. `sudo apt-key adv --fetch-keys http://developer.download.nvidia.com/compute/cuda/repos/ubuntu1804/x86_64/7fa2af80.pub`
+
+3. 
+
+   ```
+   sudo sh -c 'echo "deb http://developer.download.nvidia.com/compute/cuda/repos/ubuntu1804/x86_64 /" > /etc/apt/sources.list.d/cuda.list'
+   ```
+
+4. `sudo apt update`
+
+5. `sudo apt install cuda-toolkit-10-1`
 
 ### Update environment path for CUDA Toolkit 
 
